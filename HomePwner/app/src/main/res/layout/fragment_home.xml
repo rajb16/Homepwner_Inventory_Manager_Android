@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/home_name_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/home_name"
+        android:textSize="18sp"
+        android:text="@string/home_name_label"/>
+
+    <EditText
+        android:id="@+id/home_name"
+        android:layout_width="312dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/home_name_1"
+        android:hint="@string/home_name_hint" />
+
+    <TextView
+        android:id="@+id/home_serial_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_name_1"
+        android:layout_alignBaseline="@+id/home_serial"
+        android:textSize="18sp"
+        android:text="@string/home_serial_label" />
+
+    <EditText
+        android:id="@+id/home_serial"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_name"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/home_serial_1"
+        android:hint="Serial Set Automatically" />
+
+    <TextView
+        android:id="@+id/home_value_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_value_label"
+        android:textSize="18sp"
+        android:layout_below="@+id/home_serial_1"
+        android:layout_alignBaseline="@+id/home_value"
+        />
+
+    <EditText
+        android:id="@+id/home_value"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_serial"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/home_value_1"
+        android:hint="@string/home_value_hint" />
+
+    <Button
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_value"
+        android:layout_centerHorizontal="true"
+        android:text="@string/date_picker_title"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/home_report_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:layout_centerHorizontal="true"
+        android:text="@string/send_report"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:id="@+id/item_photo"
+        android:layout_width="283dp"
+        android:layout_height="265dp"
+        android:layout_below="@+id/item_camera"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/item_camera"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_report_button"
+        android:layout_centerHorizontal="true"
+        android:src="@android:drawable/ic_menu_camera" />
+</RelativeLayout>

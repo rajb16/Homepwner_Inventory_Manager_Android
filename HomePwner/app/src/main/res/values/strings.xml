@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">HomePwner</string>
+
+    <string name="home_name_label">Name</string>
+    <string name="home_serial_label">Serial</string>
+    <string name="home_value_label">Value</string>
+
+    <string name="home_name_hint">Please enter a name for the item</string>
+    <string name="home_serial_hint">Please enter a serial number</string>
+    <string name="home_value_hint">Please enter the products value</string>
+    <string name="home_date_label">Date Created</string>
+    <string name="date_picker_title">Date of report:</string>
+    <string name="new_item">New Item</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$d items</string>
+    <string name="send_report">Send Report</string>
+    <string name="home_report">%1$s. The item was created on %2$s. %3$s, and %4$s.</string>
+    <string name="no_name_provided">A name for the item was not provided</string>
+    <string name="home_report_name">The name of the item is  </string>
+    <string name="home_report_serial">The serial number of the item is  </string>
+    <string name="home_report_value">The value of the item is $</string>
+    <string name="subject">Homepwner Item Report</string>
+</resources>

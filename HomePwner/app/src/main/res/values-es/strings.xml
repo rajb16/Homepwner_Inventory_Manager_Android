@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InicioPwner</string>
+
+    <string name="home_name_label">Nombre</string>
+    <string name="home_serial_label">De serie</string>
+    <string name="home_value_label">Valor</string>
+
+    <string name="home_name_hint">Por favor ingrese un nombre para el artículo.</string>
+    <string name="home_serial_hint">Por favor ingrese un número de serie</string>
+    <string name="home_value_hint">Please enter the products value</string>
+    <string name="home_date_label">fecha de creacion</string>
+    <string name="date_picker_title">Fecha de reporte:</string>
+    <string name="new_item">Nuevo artículo</string>
+    <string name="show_subtitle">Mostrar subtítulo</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$d elementos</string>
+    <string name="send_report">Enviar reporte</string>
+    <string name="home_report">%1$s. El elemento fue creado el %2$s. %3$s, y %4$s.</string>
+    <string name="no_name_provided">No se proporcionó un nombre para el elemento.</string>
+    <string name="home_report_name">El nombre del artículo es </string>
+    <string name="home_report_serial">El número de serie del artículo es  </string>
+    <string name="home_report_value">El valor del artículo es $</string>
+    <string name="subject">InicioPwner Informe de artículo</string>
+</resources>
